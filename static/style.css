@@ -1,0 +1,49 @@
+h1 {
+    background-color: rgb(128, 0, 0);
+    color: ivory;
+    padding: 10px;
+}
+
+h2 {
+    font-size: 30px;
+    color: rgb(100, 225, 23);
+}
+form {
+    background-color: rgb(125, 133, 171);
+    padding: 10px;
+}
+div#nav {
+    background-color: rgb(219, 224, 212);
+    padding: 20px;
+}
+img {
+    margin-left: 40px
+ }
+body {
+    background-image: url(tlo.jpg)
+}
+p {
+    font-size: 30px;
+    color: rgba(247, 231, 229, 0.55);
+    margin-left: 20px
+}
+h4 {
+    font-size: 30px;
+    color: rgba(158, 151, 151, 0.55);
+    margin-left: 20px
+}
+h5 {
+    font-size: 30px;
+    color: rgba(17, 135, 226, 0.55);
+    margin-left: 20px
+}
+h3 {
+    background-color: rgb(128, 0, 0);
+    color: ivory;
+    padding: 20px;
+}
+ul {
+    font-size: 30px;
+    color: rgba(247, 231, 229, 0.55);
+    margin-left: 20px
+}

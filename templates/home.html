@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="utf-8">
+        {% block head %}{% endblock %}
+        <link rel="stylesheet" href="{{ url_for('static', filename='style.CSS') }}">
+    </head>
+    <body>
+        <div id="nav"><a href="about_me">O mnie</a> | <a href="contact">Kontakt</a> | <a href="home">Powrót do strony głónej</a></div>
+        <h1>Witam na mojej stronie domowej</h1>
+
+        <img src="{{ url_for('static', filename='wiedzmin.JPG') }}" title="Piotr Dzieszkowski" alt="Piotr Dzieszkowski" width="200" height="300">
+        <div id="kontent">{% block content %}{% endblock %}</div>
+    </body>
+</html>
